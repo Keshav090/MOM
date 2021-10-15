@@ -36,6 +36,7 @@ position: relative;
 }
 .links ul li a:hover{
     color: coral;
+    text-decoration:underline;
     
 }
 span{
@@ -60,7 +61,8 @@ span{
     text-decoration: none;
     color: WHITE;
     font-size: 18px;
-    border: 2px solid CORAL;
+    border: 4px solid CORAL;
+    border-radius:25px;
     padding: 10px 14px;
     transition: 200ms ;
     
@@ -71,6 +73,7 @@ span{
 }
 .donate{
     margin-top: 36px;
+    
 }
 .maincontent .content a:hover{
     background-color: CORAL;
@@ -88,10 +91,14 @@ span{
 .logo{
     display: inline-flex;
     align-items: center;
+    
   
 }
 .logo img{
     margin-left:12px;
+    border-radius:50%;
+    height:35px;
+    width:35px;
  
 }
 .aboutbg{
@@ -127,6 +134,7 @@ span{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    color:coral;
   }
   .form {
     display: flex;
@@ -144,6 +152,9 @@ span{
   }
   .form h2 {
     margin: 30px 0;
+  }
+  .form h3 {
+    color:white;
   }
   .form input {
     color: white;
@@ -180,7 +191,8 @@ span{
   }
   .form a {
     text-decoration: none;
-    margin-top: 30px;
+    margin-top: 0px;
+    border-radius:25px;
     color: #fff;
     border: 2px solid #fff;
     padding: 7px 18px;
@@ -196,4 +208,16 @@ span{
     transform: translate(-50%, 0);
     margin-bottom: 20px;
   }
-  
+  .fa{
+      
+      display:inline-flex;
+      width:200px;  
+     }	
+  .fa-instagram img
+     {  
+    margin-top:40px;
+    display:inline-flex;
+    border-radius:50%;
+    height:35px;
+    width:35px;
+   }
